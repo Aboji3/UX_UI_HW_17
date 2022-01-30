@@ -7,16 +7,18 @@
   height: 200px;
   padding: 1%;
   text-align: center;
-  object-fit: contain; 
 }
-nav {
-    width: 73%;
+#navLogo {
+    width: 100%;
+    margin-right: auto;
+}
+.navigation  {
+    width: 100%;
     padding: 1%;
 }
 ul {
-    width: 50%;
-    margin: auto left;
     padding: 8px;
+    margin-left: auto;
 }
 .heroImg{
     height: 600px;
