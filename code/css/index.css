@@ -21,10 +21,14 @@
 }
 ul {
     padding: 8px;
+<<<<<<< Updated upstream
     
+=======
+    color: #331832;
+>>>>>>> Stashed changes
 }
 .heroImg{
-    height: 600px;
+    height: 500px;
     padding: 25px;
 }
 .content {
@@ -39,8 +43,60 @@ footer ul {
     vertical-align: top;
     padding: 1%;
 }
+<<<<<<< Updated upstream
 .projectCard {
     background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Group\).png) ;
     height: 1017px;
     width: 1440px;
+=======
+.projectCards {
+    display: grid;
+    margin-left: 3%;
+    margin-right: 3%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 1fr 1fr;
+    grid-template-areas: 
+    "01 02"
+    "03 04";
+    
+    
+}
+#p01 {
+    background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Group\).png) ;
+    
+}
+#p02 {
+    background-image: url(/code/images/Government\ RWD\ Redesign.png);
+}
+#p03 {
+    background-image: url(/code/images/NPO\ Redesign\ Thumbnail\ \(Lower\ Res\).png);
+}
+#p04 {
+    background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Solo\).png);
+}
+p {
+    padding-left: 3%;
+    font-family: 'Caudex', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    color: #FDF0D5 ;
+}
+h1, h2 {
+    font-family: 'Caudex', sans-serif;
+    color: #FDF0D5 ;
+}
+.projectTitle {
+    margin-left: 3%;
+    font-size: 32px;
+}
+button {
+    margin: 3%;
+    background-color: none;
+}
+.projectInfo {
+    background-color: rgba(10, 10, 10, .6);
+} 
+.bio {
+    color: #331832;
+>>>>>>> Stashed changes
 }
