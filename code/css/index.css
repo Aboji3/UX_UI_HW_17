@@ -1,10 +1,12 @@
+body {
+    background-color: #FDF0D5 ;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
 .logo {
   width: 23%;
-  height: 200px;
   padding: 1%;
   text-align: center;
 }
@@ -15,17 +17,17 @@
 .navigation  {
     width: 100%;
     padding: 1%;
-    margin-left: auto;
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
+    height: auto;
 }
 ul {
+    padding: 8px;  
+}
+li {
     padding: 8px;
-<<<<<<< Updated upstream
-    
-=======
     color: #331832;
->>>>>>> Stashed changes
 }
 .heroImg{
     height: 500px;
@@ -43,12 +45,6 @@ footer ul {
     vertical-align: top;
     padding: 1%;
 }
-<<<<<<< Updated upstream
-.projectCard {
-    background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Group\).png) ;
-    height: 1017px;
-    width: 1440px;
-=======
 .projectCards {
     display: grid;
     margin-left: 3%;
@@ -69,7 +65,7 @@ footer ul {
     background-image: url(/code/images/Government\ RWD\ Redesign.png);
 }
 #p03 {
-    background-image: url(/code/images/NPO\ Redesign\ Thumbnail\ \(Lower\ Res\).png);
+    background-image: url(/code/images/NPO\ Redesign\ Thumbnail.png);
 }
 #p04 {
     background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Solo\).png);
@@ -91,12 +87,11 @@ h1, h2 {
 }
 button {
     margin: 3%;
-    background-color: none;
+    
 }
 .projectInfo {
     background-color: rgba(10, 10, 10, .6);
 } 
 .bio {
     color: #331832;
->>>>>>> Stashed changes
 }
