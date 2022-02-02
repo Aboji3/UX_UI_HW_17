@@ -4,14 +4,18 @@ body {
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    font-family: "Caudex", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
-.logo {
-  width: 23%;
+ul {
+    
+}
+.logo { 
   padding: 1%;
-  text-align: center;
 }
 #navLogo {
-    width: 100%;
+    width: 40%;
     margin: auto;
 }
 .navigation  {
@@ -53,12 +57,11 @@ footer ul {
     grid-template-rows: 500px 500px 1fr 1fr;
     grid-template-areas: 
     "01 02"
-    "03 04";
-    
-    
+    "03 04";  
 }
 #p01 {
-    background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Group\).png) ;
+    background-image: url(/code/css/cardImages/Tandem\ Thumbnail.png) ;
+    background-repeat: no-repeat;
     
 }
 #p02 {
@@ -80,17 +83,20 @@ p {
 h1, h2 {
     font-family: 'Caudex', sans-serif;
     color: #FDF0D5 ;
+    
 }
 .projectTitle {
     margin-left: 3%;
     font-size: 32px;
+    width: 50%;
 }
 button {
     margin: 3%;
     
 }
 .projectInfo {
-    background-color: rgba(10, 10, 10, .6);
+  
+
 } 
 .bio {
     color: #331832;
