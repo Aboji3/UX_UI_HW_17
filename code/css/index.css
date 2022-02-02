@@ -7,20 +7,16 @@ body {
     font-family: "Caudex", sans-serif;
     font-size: 18px;
     font-weight: 600;
-}
-ul {
-    
-}
+}   
 .logo { 
   padding: 1%;
 }
 #navLogo {
-    width: 40%;
+    width: 35%;
     margin: auto;
 }
 .navigation  {
     width: 100%;
-    padding: 1%;
     display: flex;
     justify-content: space-between;
     background-color: #fff;
@@ -40,6 +36,12 @@ li {
 .content {
     width: 500px;
     margin: 0 auto;
+    font-family: 'Caudex', sans-serif;
+    color: #331832;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
 footer {
     background-color: #fff;
@@ -53,25 +55,31 @@ footer ul {
     display: grid;
     margin-left: 3%;
     margin-right: 3%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px 500px 1fr 1fr;
+    margin-bottom: 3%;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px ;
     grid-template-areas: 
     "01 02"
     "03 04";  
+    justify-content: space-evenly;
+    grid-row-gap: 24px;
 }
 #p01 {
     background-image: url(/code/css/cardImages/Tandem\ Thumbnail.png) ;
     background-repeat: no-repeat;
-    
+    padding-bottom: 24px;
 }
 #p02 {
-    background-image: url(/code/images/Government\ RWD\ Redesign.png);
+    background-image: url(/code/css/cardImages/Gov\ Thumbnail.png);
+    background-repeat: no-repeat;
 }
 #p03 {
-    background-image: url(/code/images/NPO\ Redesign\ Thumbnail.png);
+    background-image: url(/code/css/cardImages/NPO\ Thumbnail.png);
+    background-repeat: no-repeat;
 }
 #p04 {
-    background-image: url(/code/images/Mobile\ App\ Design\ Case\ Study\ \(Solo\).png);
+    background-image: url(/code/css/cardImages/Troop\ Thumbnail.png);
+    background-repeat: no-repeat;
 }
 p {
     padding-left: 3%;
@@ -83,21 +91,17 @@ p {
 h1, h2 {
     font-family: 'Caudex', sans-serif;
     color: #FDF0D5 ;
-    
 }
 .projectTitle {
-    margin-left: 3%;
+    margin-left: 2%;
     font-size: 32px;
     width: 50%;
 }
 button {
     margin: 3%;
-    
-}
-.projectInfo {
-  
-
 } 
-.bio {
+#bio {
     color: #331832;
+    text-align: center;
+    justify-content: center;
 }
