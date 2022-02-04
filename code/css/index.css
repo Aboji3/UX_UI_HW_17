@@ -34,7 +34,6 @@ li {
     padding: 25px;
 }
 .content {
-    width: 500px;
     margin: 0 auto;
     font-family: 'Caudex', sans-serif;
     color: #331832;
@@ -104,4 +103,7 @@ button {
     color: #331832;
     text-align: center;
     justify-content: center;
+}
+#welcome {
+    width: 30%;
 }
